@@ -19,7 +19,7 @@ int main(){
     delete r;
     delete c;
     delete h;
-
+    
    cout<< r->refGame(*h,*c) << endl;
 
 
