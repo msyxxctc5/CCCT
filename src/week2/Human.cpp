@@ -17,4 +17,8 @@ char Human::makeMove() {
     cin >> this->movement;
 
     return this->movement;
+}
+
+char Human::getMove() {
+    return this->movement;
 };

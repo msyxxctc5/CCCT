@@ -15,6 +15,8 @@ public:
 
     char makeMove() override;
 
+    char getMove();
+
     virtual ~Human();
 
 

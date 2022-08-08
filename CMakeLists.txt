@@ -48,7 +48,7 @@ conan_basic_setup()
 # -------------------------------------------------------
 # customized setup
 
-add_executable(cmake_clion_template main.cpp src/week2/Player.cpp src/week2/Player.h src/week2/Human.cpp src/week2/Human.h src/week2/Computer.cpp src/week2/Computer.h src/week2/Referee.cpp src/week2/Referee.h)
+add_executable(cmake_clion_template src/week2/Player.cpp src/week2/Player.h src/week2/Human.cpp src/week2/Human.h src/week2/Computer.cpp src/week2/Computer.h src/week2/Referee.cpp src/week2/Referee.h src/week2/main.cpp)
 
 # important ! link libs to executable target
 target_link_libraries(cmake_clion_template

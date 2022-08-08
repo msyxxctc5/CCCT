@@ -14,13 +14,14 @@ public:
 
     char makeMove() override;
 
+    char getMove();
 
     virtual ~Computer();
 
 
 private:
 
-    char movement;
+    char movement = 'R';
 
 };
 
