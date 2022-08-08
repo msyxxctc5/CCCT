@@ -4,16 +4,16 @@
 
 #ifndef CMAKE_CLION_CONAN_TEMPLATE_HUMAN_H
 #define CMAKE_CLION_CONAN_TEMPLATE_HUMAN_H
-#include "Player.h"
 
 
-class Human : public Player{
+
+class Human{
 
 public:
 
     Human();
 
-    char makeMove() override;
+    char makeMove();
 
     char getMove();
 

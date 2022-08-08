@@ -1,22 +1,6 @@
-include_directories(
-        ${CMAKE_CURRENT_SOURCE_DIR}/
-) # including .h header in current directory (sub directory) (do not modify)
+cmake_minimum_required(VERSION 3.16)
+project(/src/week2)
 
-conan_basic_setup() # conan support
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(week2 # your sub-project name
-
-        # add your source file (cpp file only)
-
-        ../src/week2
-        Computer.cpp
-        Human.cpp
-        Referee.cpp
-        main.cpp
-        )
-
-
-
-target_link_libraries(AVLTree # must identical to sub-project name
-        ${CONAN_LIBS} # include CONAN libs which defined in root level Cmake
-        )
+add_executable(week2 main.cpp Human.h Human.cpp Computer.h Computer.cpp Referee.cpp Referee.h)

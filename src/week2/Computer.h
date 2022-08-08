@@ -4,15 +4,15 @@
 
 #ifndef CMAKE_CLION_CONAN_TEMPLATE_COMPUTER_H
 #define CMAKE_CLION_CONAN_TEMPLATE_COMPUTER_H
-#include "Player.h"
 
 
-class Computer : public Player{
+
+class Computer{
 public:
 
     Computer();
 
-    char makeMove() override;
+    char makeMove();
 
     char getMove();
 
