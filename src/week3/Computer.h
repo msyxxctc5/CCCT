@@ -14,7 +14,7 @@ public:
 
     char makeMove() override;
 
-    char getMove();
+
 
     virtual ~Computer();
 

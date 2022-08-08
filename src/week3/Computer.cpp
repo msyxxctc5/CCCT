@@ -18,7 +18,3 @@ char Computer::makeMove(){
 Computer::~Computer() {
 
 }
-
-char Computer::getMove() {
-    return this->movement;
-}
